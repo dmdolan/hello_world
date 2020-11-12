@@ -1,27 +1,3 @@
-curl -X POST "https://redcap.partners.org/redcap" -H "accept: application/json"
+curl -X GET "https://redcap.partners.org/redcap" -H "accept: text/html"
 https://redcap.partners.org/redcap
-{
-  "args": {},
-  "data": "",
-  "files": {},
-  "form": {},
-  "headers": {
-    "Accept": "application/json",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Content-Length": "0",
-    "Host": "httpbin.org",
-    "Origin": "http://httpbin.org",
-    "Referer": "http://httpbin.org/",
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "cross-site",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36",
-    "X-Amzn-Trace-Id": "Root=1-5fadb413-56df1fbd2909dd611d24c2b9"
-  },
-  "json": null,
-  "origin": "132.183.13.3",
-  "url": "https://httpbin.org/post"
-}
- content-length: 726 
- content-type: application/json 
+
