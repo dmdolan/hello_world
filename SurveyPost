@@ -1,2 +1,28 @@
-curl -X POST "https://httpbin.org/anything" -H "accept: application/json"
+curl -X POST "https://redcap.partners.org/redcap/anything" -H "accept: application/json"
 https://redcap.partners.org/redcap/anything
+--header 'my-sample-header: Lorem ipsum dolor sit amet'
+{
+  "args": {},
+  "data": "",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Content-Length": "0",
+    "Host": "httpbin.org",
+    "Origin": "https://redcap.partners.org/redcap",
+    "Referer": "https://redcap.partners.org/redcap/",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "cross-site",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36",
+    "X-Amzn-Trace-Id": "Root=1-5fadb890-2c7bffc4529f9ef2103c659a"
+  },
+  "json": null,
+  "method": "POST",
+  "origin": "",
+  "url": "https://redcap.partners.org/redcap/anything"
+  
+}
