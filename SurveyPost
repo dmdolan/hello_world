@@ -1,6 +1,6 @@
 curl -X POST "https://redcap.partners.org/redcap/anything" -H "accept: application/json"
 https://redcap.partners.org/redcap/anything
---header 'my-sample-header: Lorem ipsum dolor sit amet'
+--header
 {
   "args": {},
   "data": "",
@@ -10,8 +10,8 @@ https://redcap.partners.org/redcap/anything
   "instrument": {},
   "[instrument]_complete": {},
   "project_url": {},
-  "json": null,
-  "method": "POST",
-  "origin": "",
+  "json": {},
+  "method": {},
+  "origin":{},
   "url": {} 
 }
