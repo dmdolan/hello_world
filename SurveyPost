@@ -1,5 +1,5 @@
-curl -X POST "https://httpbin.org/post" -H "accept: application/json"
-https://redcap.partners.org/redcap/
+curl -X POST "https://redcap.partners.org/redcap" -H "accept: application/json"
+https://redcap.partners.org/redcap
 {
   "args": {},
   "data": "",
