@@ -1,1 +1,3 @@
-curl http://localhost:3000/sample?name=aditya
+curl \
+  -H "Accept: application/vnd.github.v3+json" \
+https://redcap.partners.org/redcap
