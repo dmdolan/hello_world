@@ -1,5 +1,5 @@
-curl -X POST "https://redcap.partners.org/redcap/anything" -H "accept: application/json"
-https://redcap.partners.org/redcap/anything
+curl -X POST "https://redcap.partners.org/redcap" -H "accept: application/json"
+https://redcap.partners.org/redcap
 --header
 {
   "args": {},
