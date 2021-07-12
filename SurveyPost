@@ -1,17 +1,14 @@
-curl -X POST "https://redcap.partners.org/redcap/api" -H "accept: application/json"
-https://redcap.partners.org/redcap/api
---header
-{
-  "args": {},
-  "data": "",
-  "files": {},
-  "form": {},
-  "headers": {},
-  "instrument": {},
-  "[instrument]_complete": {},
-  "project_url": {},
-  "json": {},
-  "method": {},
-  "origin":{},
-  "url": {} 
-}
+#!/usr/bin/env Rscript
+token <- "65040691E286B92721D234D185DBB385"
+url <- "https://redcap.partners.org/redcap/api/"
+formData <- list("token"=token,
+    content='surveyLink',
+    format='json',
+    instrument='',
+    event='',
+    record='',
+    returnFormat='json'
+)
+response <- httr::POST(url, body = formData, encode = "form")
+result <- httr::content(response)
+print(result)
